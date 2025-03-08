@@ -50,51 +50,7 @@ import 'pdf-viewer-core/style.css';
 - `eslint.config.js` - ESLint configuration
 - `vitest.config.ts` - Vitest configuration
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## Support
 
-If you have any questions or need help, please:
-  - Open an issue
-  - Contact us at ahmadfarazjutt3@gmail.com
-
-## Development
-
-```bash
-npm install
-npm run dev
-```
-
-## Testing
-
-```bash
-npm run test
-```
-
-## Linting
-
-```bash
-npm run lint
-```
-
-## Formatting
-
-```bash
-npm run format
-```
-
-## Example
-
-```bash
-npm run example
-```
-
-
-## Support
 [Buy me a coffee](https://buymeacoffee.com/ahmadfaraz1)
