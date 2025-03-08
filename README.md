@@ -43,13 +43,6 @@ import 'pdf-viewer-core/style.css';
 | `containerStyles` | `React.CSSProperties` | `{className: 'container-style', maxHeight: '80vh', width: '100%'}` | The styles for the container. |
 | `fullScreen` | `boolean` | `false` | Whether to show the full screen. |
 
-## Configuration Files
-
-- `vite.config.ts` - Vite configuration
-- `tsconfig.json` - TypeScript configuration
-- `eslint.config.js` - ESLint configuration
-- `vitest.config.ts` - Vitest configuration
-
 
 ## Support
 
