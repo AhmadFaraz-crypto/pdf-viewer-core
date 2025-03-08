@@ -1,0 +1,11 @@
+src/
+tests/
+example/
+.github/
+.vscode/
+.eslintrc
+.prettierrc
+tsconfig.json
+vite.config.ts
+vitest.config.ts
+*.log 
