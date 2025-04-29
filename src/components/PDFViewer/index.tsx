@@ -196,7 +196,7 @@ const PDFViewer = ({
 
   return (
     <div
-      className={`${containerStyles.className} relative flex flex-col items-center bg-gray-100 max-w-screen-sm`}
+      className={`${containerStyles.className} relative flex flex-col items-center bg-gray-100`}
     >
       <div
         className="relative overflow-auto"
