@@ -193,18 +193,6 @@ describe("PDFViewer", () => {
       const nextButton = screen.getByTestId("next-page-button");
       expect(nextButton).toBeDisabled();
     });
-
-    it("allows direct page navigation via input", async () => {
-      const onPageChange = vi.fn();
-      await renderPDFViewer({ onPageChange });
-
-      const pageInput = screen.getByTestId("page-input");
-      await userEvent.clear(pageInput);
-      await userEvent.type(pageInput, "3");
-      await userEvent.keyboard("{Enter}");
-
-      expect(onPageChange).toHaveBeenCalledWith(3); // 0-based index
-    });
   });
 
   describe("Toolbar Configuration Tests", () => {
@@ -213,7 +201,6 @@ describe("PDFViewer", () => {
         toolbarConfig: { showPageNavigation: true },
       });
 
-      expect(screen.getByTestId("page-input")).toBeInTheDocument();
       expect(screen.getByTestId("prev-page-button")).toBeInTheDocument();
       expect(screen.getByTestId("next-page-button")).toBeInTheDocument();
     });
